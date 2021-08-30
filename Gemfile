@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'capybara'
+gem 'rspec'
+gem 'rspec-expectations'
+gem 'spec' 
+gem 'cucumber'
+gem 'selenium-webdriver'
+gem 'site_prism'
+gem 'capybara-screenshot'
