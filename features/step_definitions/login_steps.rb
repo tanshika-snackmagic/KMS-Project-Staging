@@ -41,7 +41,7 @@ Then(/^User should be able to select service$/) do
 end
 
 Then(/^Enter Revenue Centre$/) do
-  @home.search_revenue_centre.set "D002"
+  @home.search_revenue_centre.set "D0A2"
 end
 
 Then(/^Click on search to get search results$/) do

@@ -33,14 +33,6 @@ Then User should be able to filter results on the basis of services
 When User go to 3pp mappings page List under Revenue Centres tab
 Then User should be  able to select the elements from the drop down list of the 3pp Revenue Centres input field
 
-@place_order
-Scenario: User should be able to place order from OT and cancel from KMS Backend
-When User go to OT portal to place order on HQ revenue centre
-And Come back to KMS backend
-Then User should be able to go to store page
-And Select HQ revenue centre
-And Go to order listing screen to view and cancel the order from KMS backend
-
 @items_and_modifiers
 Scenario: Item and modifier pages should be accessible
 When User go to Items page under Items and Modifiers tab
